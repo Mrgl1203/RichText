@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         TextPaint textPaint = new TextPaint(new Paint());
         String shortNickname = TextUtils.ellipsize(nickname, textPaint, 100, TextUtils.TruncateAt.END).toString();
         SpannableString spannableNickname = new SpannableString(shortNickname);
-        
+
         //名字字符串进行圆角边框修饰
         RadiusBackgroundSpan backgroundSpan = new RadiusBackgroundSpan(getResources().getColor(R.color.cbg), 10);
         //设置圆角边框只包裹住名字部分
