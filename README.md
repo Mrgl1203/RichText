@@ -1,7 +1,7 @@
 # RichText
 富文本
 * 公司的直播项目中对话框的listview中使用到的富文本样式,spannable还有很多样式这里只用到了少数几种而已，先看看直播时的效果吧！</br>
-
+![img](https://github.com/Mrgl1203/RichText/blob/master/app/src/main/java/com/gl/richtext/richtext-gif.gif)
 ```
     TextView richText;
 
